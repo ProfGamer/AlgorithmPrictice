@@ -1,6 +1,7 @@
 package com.datastructure.algorithmprictice.myPrictice.Sorting.MergeSort;
 
-import myPrictice.Sorting.CountingSort;
+
+import com.datastructure.algorithmprictice.myPrictice.Sorting.CountingSort;
 
 /**
  * @Author: Xin Yuchen

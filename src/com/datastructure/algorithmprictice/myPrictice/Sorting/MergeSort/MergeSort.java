@@ -1,6 +1,7 @@
 package com.datastructure.algorithmprictice.myPrictice.Sorting.MergeSort;
 
-import myPrictice.Sorting.QuickSort;
+import com.datastructure.algorithmprictice.myPrictice.Sorting.QuickSort;
+
 
 import java.util.Arrays;
 
