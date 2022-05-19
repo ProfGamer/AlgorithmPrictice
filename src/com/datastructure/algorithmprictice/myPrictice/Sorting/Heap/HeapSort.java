@@ -1,4 +1,6 @@
-package com.datastructure.algorithmprictice.myPrictice.Sorting;
+package com.datastructure.algorithmprictice.myPrictice.Sorting.Heap;
+
+import com.datastructure.algorithmprictice.myPrictice.Sorting.QuickSort;
 
 import java.util.Arrays;
 
