@@ -35,10 +35,13 @@ public class SelectSort {
         for (int i = 0; i < times; i++) {
             int[] arr1 = QuickSort.generateRandomArray(len, max);
             int[] arr2 = Arrays.copyOf(arr1, arr1.length);
+            int[] original = Arrays.copyOf(arr1, arr1.length);
             Arrays.sort(arr1);
             selectSort(arr2);
             if (!Arrays.equals(arr1, arr2)) {
                 System.out.println("出错了！！！");
+                System.out.println("原始数组为: " + Arrays.toString(original));
+                System.out.println();
             }
         }
         System.out.println("测试结束！！！");
