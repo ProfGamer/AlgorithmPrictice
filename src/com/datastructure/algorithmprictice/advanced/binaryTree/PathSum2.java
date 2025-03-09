@@ -10,7 +10,7 @@ import java.util.List;
  * https://leetcode.cn/problems/path-sum-ii/
  * 递归还原现场, 入递归的时候将节点val加入path 但是在出递归的时候, 从path中移除该节点造成的影响
  */
-public class PathSum {
+public class PathSum2 {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
